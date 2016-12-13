@@ -1,0 +1,25 @@
+{
+    "name": "rombit/fade-bundle",
+    "description": "Gradually reduce the opacity of your site to 0",
+    "keywords": ["behavior", "doctrine2", "extension", "statemachine"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jo Giraerts",
+            "email": "jo@rombit.be",
+            "homepage": "http://rombit.be/"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.3|~3.0",
+        "doctrine/doctrine-bundle": "~1.2"
+    },
+    "suggest": {
+        "symfony/console": "To execute the command to generate Graphviz views of state machines",
+        "symfony/twig-bundle": "To integrate with Twig"
+    },
+    "autoload": {
+        "psr-4": { "Rombit\\FadeBundle\\": "" }
+    }
+}
