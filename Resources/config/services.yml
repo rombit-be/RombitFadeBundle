@@ -1,0 +1,6 @@
+services:
+  response_modifier:
+    class: Rombit\FadeBundle\Listener\ModifyResponseListener
+    arguments: ['@templating', '@doctrine.orm.default_entity_manager']
+    tags:
+        - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse, priority: -127 }

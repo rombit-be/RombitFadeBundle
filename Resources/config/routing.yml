@@ -1,0 +1,19 @@
+rombit_fade_homepage:
+    path:     /
+    defaults: { _controller: RombitFadeBundle:Default:index }
+
+rombit_fade_up:
+    path:     /fade/up
+    defaults: { _controller: RombitFadeBundle:Default:up }
+
+rombit_fade_down:
+    path:     /fade/down
+    defaults: { _controller: RombitFadeBundle:Default:down }
+
+rombit_fade_start:
+    path:     /fade/start
+    defaults: { _controller: RombitFadeBundle:Default:start }
+
+rombit_fade_stop:
+    path:     /fade/stop
+    defaults: { _controller: RombitFadeBundle:Default:stop }

@@ -1,0 +1,9 @@
+/build/
+/vendor
+/bin/
+/composer.phar
+/node_modules
+.idea
+/coverage/*
+.DS_Store
+**/.DS_Store
