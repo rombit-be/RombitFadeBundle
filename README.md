@@ -18,7 +18,7 @@ Idea for this bundle came from: Rik Lomas - https://twitter.com/riklomas/status/
 ### Step 1: Composer
 `composer install rombit/fade-bundle`
 
-### Step2: Enable the bundle
+### Step 2: Enable the bundle
 
 Add to `AppKernel.php`:
 ```php
@@ -60,5 +60,12 @@ Manually decrease the opacity with 0.1
 
 
 ## Configuration
+
+no config yet
+
+## Todo
+* make period and amount configurable
+* other storage-engine besides Doctrine
+* get functional tests working or refactor so we only need to do unit-tests
 
 
