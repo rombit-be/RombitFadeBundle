@@ -1,5 +1,5 @@
 {
-    "name": "rombit/fade-bundle",
+    "name": "rombit/RombitFadeBundle",
     "description": "Gradually reduce the opacity of your site to 0",
     "keywords": ["behavior", "doctrine2", "extension", "statemachine"],
     "type": "symfony-bundle",
